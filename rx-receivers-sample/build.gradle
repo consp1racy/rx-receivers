@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion
@@ -26,10 +25,10 @@ android {
 }
 
 dependencies {
-  compile project(':rx-receivers')
-  compile deps.rxandroid
-  compile deps.butterknife
-  compile deps.rxlifecycle
-  compile deps.rxlifecycleandroid
-  compile deps.rxlifecyclecomponents
+  implementation project(':rx-receivers')
+  implementation deps.rxandroid
+  implementation deps.butterknife
+  implementation deps.rxlifecycle
+  implementation deps.rxlifecycleandroid
+  implementation deps.rxlifecyclecomponents
 }

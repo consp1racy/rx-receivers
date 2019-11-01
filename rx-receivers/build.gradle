@@ -21,15 +21,16 @@ android {
 }
 
 dependencies {
-  provided deps.auto
-  provided deps.jsr250
+  compileOnly deps.jsr250
+  compileOnly deps.autoAnnotations
+  annotationProcessor deps.auto
 
-  compile deps.annotations
-  compile deps.rxjava
+  implementation deps.annotations
+  api deps.rxjava
 
-  testCompile deps.junit
-  testCompile deps.assertj
-  testCompile deps.robolectric
+  testImplementation deps.junit
+  testImplementation deps.assertj
+  testImplementation deps.robolectric
 }
 
 apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
