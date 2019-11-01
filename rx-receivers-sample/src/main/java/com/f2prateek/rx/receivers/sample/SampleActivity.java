@@ -10,8 +10,8 @@ import com.f2prateek.rx.receivers.battery.RxBatteryManager;
 import com.f2prateek.rx.receivers.telephony.PhoneStateChangedEvent;
 import com.f2prateek.rx.receivers.telephony.RxTelephonyManager;
 import com.f2prateek.rx.receivers.wifi.RxWifiManager;
-import com.trello.rxlifecycle2.android.ActivityEvent;
-import com.trello.rxlifecycle2.components.RxActivity;
+import com.trello.rxlifecycle3.android.ActivityEvent;
+import com.trello.rxlifecycle3.components.RxActivity;
 import io.reactivex.functions.Function;
 
 public class SampleActivity extends RxActivity {

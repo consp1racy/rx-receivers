@@ -28,6 +28,7 @@ dependencies {
   implementation project(':rx-receivers')
   implementation deps.rxandroid
   implementation deps.butterknife
+  annotationProcessor deps.butterknifeProcessor
   implementation deps.rxlifecycle
   implementation deps.rxlifecycleandroid
   implementation deps.rxlifecyclecomponents

@@ -2,9 +2,9 @@ package com.f2prateek.rx.receivers.wifi;
 
 import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
-import android.support.annotation.CheckResult;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.CheckResult;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import com.f2prateek.rx.receivers.internal.Preconditions;
 import com.google.auto.value.AutoValue;
 
